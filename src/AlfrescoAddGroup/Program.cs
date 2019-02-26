@@ -38,9 +38,7 @@ namespace AlfrescoAddGroup {
                 if (response.StatusCode != HttpStatusCode.Created) {
                     Console.WriteLine($"- {response.StatusCode} -");
                 }
-
                 Console.WriteLine(result);
-                Console.WriteLine();
             }
         }
     }

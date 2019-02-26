@@ -16,7 +16,7 @@ dotnet tool install  -g wk.AlfrescoAddGroup \
 
 ```bash
 wk-alfresco-add-group \
-    --endpoint http://localhost:8080 \
+    --endpoint http://localhost:8082 \
     --user admin \
     --password admin \
     --groups G1 G2 G3
